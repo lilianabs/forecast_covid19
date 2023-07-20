@@ -1,0 +1,33 @@
+2023-05-29 12:47:39,197 - root - INFO - Making request to covid19 API
+2023-05-29 12:47:39,502 - root - INFO - Successfully extracted data from covid19 API
+2023-05-29 12:47:39,503 - root - INFO - Transforming covid19 data
+2023-05-29 12:47:39,526 - root - INFO - Loaded raw data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\raw\covid19_data.json
+2023-05-29 12:47:39,527 - root - INFO - Storing transformed data
+2023-05-29 12:47:39,530 - root - INFO - Utils save_data_plkl saved data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\processed\covid19_data_processed.pkl
+2023-05-29 12:47:39,532 - root - INFO - Loading data pkl file: C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\processed\covid19_data_processed.pkl 
+2023-05-29 12:47:39,532 - root - INFO - Utils load_data: Loaded data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\processed\covid19_data_processed.pkl
+2023-05-29 12:47:39,532 - root - INFO - Performing feature engineering
+2023-05-29 12:47:39,535 - root - INFO - Columns for training model: ['lag_1', 'positive'] 
+2023-05-29 12:47:39,538 - root - INFO - Utils save_data_plkl saved data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data.pkl
+2023-05-29 12:47:39,538 - root - INFO - Spliting data into train and test
+2023-05-29 12:47:39,538 - root - INFO - Loading data pkl file: C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data.pkl 
+2023-05-29 12:47:39,538 - root - INFO - Utils load_data: Loaded data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data.pkl
+2023-05-29 12:47:39,540 - root - INFO - Splitted data into train and test
+2023-05-29 12:47:39,541 - root - INFO - Utils save_data_plkl saved data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_x_train.pkl
+2023-05-29 12:47:39,543 - root - INFO - Utils save_data_plkl saved data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_x_test.pkl
+2023-05-29 12:47:39,545 - root - INFO - Utils save_data_plkl saved data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_y_train.pkl
+2023-05-29 12:47:39,546 - root - INFO - Utils save_data_plkl saved data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_y_test.pkl
+2023-05-29 12:47:39,546 - root - INFO - Loading data pkl file: C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_x_train.pkl 
+2023-05-29 12:47:39,547 - root - INFO - Utils load_data: Loaded data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_x_train.pkl
+2023-05-29 12:47:39,547 - root - INFO - Loading data pkl file: C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_x_test.pkl 
+2023-05-29 12:47:39,547 - root - INFO - Utils load_data: Loaded data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_x_test.pkl
+2023-05-29 12:47:39,548 - root - INFO - Loading data pkl file: C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_y_train.pkl 
+2023-05-29 12:47:39,548 - root - INFO - Utils load_data: Loaded data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_y_train.pkl
+2023-05-29 12:47:39,548 - root - INFO - Loading data pkl file: C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_y_test.pkl 
+2023-05-29 12:47:39,548 - root - INFO - Utils load_data: Loaded data file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\data\final\covid19_training_data_y_test.pkl
+2023-05-29 12:47:39,548 - root - INFO - Training model
+2023-05-29 12:47:39,551 - root - INFO - Evaluating model
+2023-05-29 12:47:39,552 - root - INFO - Train RMSE: 26561.7899
+2023-05-29 12:47:39,552 - root - INFO - Test RMSE: 174967.3088
+2023-05-29 12:47:39,552 - root - INFO - Saving model as .pkl file
+2023-05-29 12:47:39,554 - root - INFO - Saved model file C:\Users\MI23674\Documents\forecast_covid19_positive_cases\models\model.pkl
